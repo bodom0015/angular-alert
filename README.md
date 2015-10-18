@@ -13,19 +13,19 @@ The user can then bind to this alert queue to display the alert's contents in wh
 Bower integration coming soon!
 
 Until then, running the following command should retrieve a copy of the source code:
-```
+```git
 git clone https://github.com/bodom0015/angular-alert.git
 ```
 
 The source code includes a `demo.html` page which illustrates the usage of this module.
 
 To use the module, add a reference to the javascript to your `index.html`:
-```
-    <script src="/angular-alert/angular-alert.js"></script>
+```html
+<script src="/angular-alert/angular-alert.js"></script>
 ```
     
 Add the `ngAlert` module to your module's instantiation and pass the AlertService into your Controller:
-```
+```js
 angular
 .module('alertTest', [ 'ngAlert' ])
 .controller('AlertController', [ '$scope', 'AlertService', function($scope, AlertService) {
@@ -35,7 +35,7 @@ angular
 ```
 
 You should then be able to bind to this service in the view template:
-```
+```html
 <div ng-controller="AlertController">
   <button class="btn btn-success" ng-click="service.enqueue('Message')">Enqueue</button>
   <div class="alert alert-info" ng-repeat="alert in service.alerts">{{ alert.message }}</div>
