@@ -9,6 +9,8 @@ While receiving events (from websocket, http, etc), it is sometimes beneficial t
 
 The user can then bind to this alert queue to display the alert's contents in whatever way they choose.
 
+NOTE: Bootstrap is not necessary to use this wizard, I have simply used it below in the example to display the wizard.
+
 ## Installation
 Bower integration coming soon!
 
@@ -23,6 +25,8 @@ To use the module, add a reference to the javascript to your `index.html`:
 ```html
 <script src="/angular-alert/angular-alert.js"></script>
 ```
+    
+## Usage
     
 Add the `ngAlert` module to your module's instantiation and pass the AlertService into your Controller:
 ```js
