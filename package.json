@@ -1,0 +1,30 @@
+{
+  "name": "angular-alert",
+  "version": "0.1.0",
+  "description": "A simple queue service for AngularJS",
+  "main": "angular-alert.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/bodom0015/angular-alert.git"
+  },
+  "keywords": [
+    "angular",
+    "alert",
+    "notification",
+    "queue",
+    "js",
+    "angularjs"
+  ],
+  "author": "Mike Lambert <bodom0015@gmail.com>",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/bodom0015/angular-alert/issues"
+  },
+  "homepage": "https://github.com/bodom0015/angular-alert#readme",
+  "dependencies": {
+    "angular": "^1.4.14"
+  }
+}
